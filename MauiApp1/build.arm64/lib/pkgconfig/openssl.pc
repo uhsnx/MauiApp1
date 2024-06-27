@@ -1,0 +1,7 @@
+libdir=/Users/tanem1/Project/TestProjects/AppleMobileDeviceLibrary/build/build.arm64/lib
+includedir=/Users/tanem1/Project/TestProjects/AppleMobileDeviceLibrary/build/build.arm64/include
+
+Name: OpenSSL
+Description: Secure Sockets Layer and cryptography libraries and tools
+Version: 3.3.0
+Requires: libssl libcrypto

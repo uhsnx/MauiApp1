@@ -1,0 +1,11 @@
+libdir=/Users/tanem1/Project/TestProjects/AppleMobileDeviceLibrary/build/build.arm64/lib
+includedir=/Users/tanem1/Project/TestProjects/AppleMobileDeviceLibrary/build/build.arm64/include
+enginesdir=/Users/tanem1/Project/TestProjects/AppleMobileDeviceLibrary/build/build.arm64/lib/engines-3
+modulesdir=/Users/tanem1/Project/TestProjects/AppleMobileDeviceLibrary/build/build.arm64/lib/ossl-modules
+
+Name: OpenSSL-libcrypto
+Description: OpenSSL cryptography library
+Version: 3.3.0
+Libs: -L${libdir} -lcrypto
+Libs.private: 
+Cflags: -I${includedir}
